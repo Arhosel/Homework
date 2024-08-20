@@ -1,5 +1,5 @@
 my_string = str(input('Введите произвольную строку:'))
-print(len(my_string))
+print(len(my_string))                              #Количество символов в строке
 print(my_string.lower())                           #Строка в нижнем регистре
 print(my_string.upper())                           #Строка в верхнем регистре
 print(my_string.replace(' ',''))      #old и new подтягиваются автоматически, прописывать вручную НЕ нужно (Замена разделителя)
