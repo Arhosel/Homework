@@ -1,0 +1,6 @@
+name = input('Введите Ваше имя: ')
+print("Здарвствуйте,",name,'!')
+current_year = 2024
+date_of_bith = int(input("В каком году вы родились? "))
+age = current_year - date_of_bith
+print("В Этом году Вам", age, "лет")
