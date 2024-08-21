@@ -7,7 +7,7 @@ my_dict.update({'Alexandr': 1986,                       #Добавление н
 #print(my_dict)                                         #Проверил вывод всего словаря
 a = my_dict.pop('Alex')                                 #Удаление ключа 'Аlex', возвращает значение по команде print
 print(a)
-print('Dict:', my_dict)                                 #Вывод итогового словаря -Alex, +Aexandr & +Vladimir
+print('Dict:', my_dict)                                 #Вывод итогового словаря -Alex, +Alexandr & +Vladimir
 
 my_set = {1, 2, 3, 4, 5, 'Denis', 'Ksenia', False, 'Никогда не выпадает вторая оказия создать первое впечатление', (1,2,3,4), 'Denis'}
 print('Set', my_set)
