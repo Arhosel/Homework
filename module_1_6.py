@@ -12,6 +12,6 @@ print('Dict:', my_dict)                                 #Вывод итогов
 my_set = {1, 2, 3, 4, 5, 'Denis', 'Ksenia', False, 'Никогда не выпадает вторая оказия создать первое впечатление', (1,2,3,4), 'Denis'}
 print('Set', my_set)
 my_set.update({'Valeria',
-               5, 6, 7, 'Словарь дополнен в полночь'})
+               6, 7, 'Словарь дополнен в полночь'})
 print(my_set.remove('Denis'))
 print('Final Set', my_set)
