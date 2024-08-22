@@ -1,0 +1,25 @@
+grades = [[5, 3, 3, 5, 4],
+          [2, 2, 2, 3],
+          [4, 5, 5, 2],
+          [4, 4, 3],
+          [5, 5, 5, 4, 5]]
+
+students = {'Johnny',                                   
+            'Bilbo',
+            'Steve',
+            'Khendrik',
+            'Aaron'}
+
+sorted_lst = sorted(students)                           #Sorted - универсальный метод сортировки в алфавитном порядке
+
+avg_lst = [sum(grades[0]) / len(grades[0]),             #Вычисление среднего значения списка
+           sum(grades[1]) / len(grades[1]),             #Функция sum возвращает сумму всех элементов списка
+           sum(grades[2]) / len(grades[2]),             #Функция len возвращает количество элементов в списке
+           sum(grades[3]) / len(grades[3]),
+           sum(grades[4]) / len(grades[4])
+]
+
+dict0 = dict(zip(sorted_lst, avg_lst))                  #Перевод списков в zip объект
+dict1 = copy.deepcopy(dict0)                            #Функция неглубокого копирования
+
+print(dict1)
