@@ -1,10 +1,13 @@
+import copy
+from copy import deepcopy
+
 grades = [[5, 3, 3, 5, 4],
           [2, 2, 2, 3],
           [4, 5, 5, 2],
           [4, 4, 3],
           [5, 5, 5, 4, 5]]
 
-students = {'Johnny',                                   
+students = {'Johnny',
             'Bilbo',
             'Steve',
             'Khendrik',
@@ -20,6 +23,6 @@ avg_lst = [sum(grades[0]) / len(grades[0]),             #Вычисление с
 ]
 
 dict0 = dict(zip(sorted_lst, avg_lst))                  #Перевод списков в zip объект
-dict1 = copy.deepcopy(dict0)                            #Функция неглубокого копирования
+dict1 = copy.deepcopy(dict0)                         #Функция неглубокого копирования
 
-print(dict1)
+print (dict1)
