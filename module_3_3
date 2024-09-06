@@ -1,0 +1,21 @@
+def print_params(a = 1, b = 'строка', c = True):
+    print(a, b, c)
+
+print_params()                                  #вывод со стандартными значениями
+print_params(b=25)                              #вывод с заменой b
+print_params(c=[10, 20, 30])                    #вывод с заменой c на список
+
+print()
+
+values_list = [False, 50, 'second string']
+values_dict = { 'a' : 200, 'b': 'another string ', 'c': True}
+
+print()
+print_params(*values_list)                      #передача функции с распаковкой списка
+print_params(**values_dict)                     #передача функции с распаковкой словаря
+
+values_list_2 = [15.50, 'third string']
+
+print()
+print_params(*values_list_2, 100)               #передача функции с распаковкой списка из 2-х элементов
+                                                #разных типов с добавлением одного значения в список
