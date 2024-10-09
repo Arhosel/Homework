@@ -29,7 +29,7 @@ class Pegasus(Horse, Eagle):
     def voice(self):
         print(self.sound)                               # Звук пегаса
 
-
+#Исходный код задания и проверка методов
 p1 = Pegasus()
 
 print(p1.get_pos())
