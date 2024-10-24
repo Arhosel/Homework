@@ -12,7 +12,7 @@ class Car:
     def __init__(self, model, vin, numbers):
         self.model = model                                                                                              #Вызов методов для создания атрибутов объекта
         if self.__is_valid_vin(vin):
-            self.__vin = vin                                                                                            #модели, VIN номера и сточного номера авто
+            self.__vin = vin                                                                                            #модели, VIN номера и строчного номера авто
         if self.__is_valid_numbers(numbers):
             self.__numbers = numbers
 
