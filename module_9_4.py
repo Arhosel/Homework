@@ -10,8 +10,8 @@ print(res)
 def get_advanced_writer(file_name):
     def write_everything(*data_set):                                                                                    #data_set - параметр принимающий неограниченное
         with open(file_name, mode='w', encoding='utf-8') as file:                                                       #количество данных любого типа
-            for i in data_set:
-                file.write(f"{i}\n")
+            for i in data_set:                                                                                          #добавление в файл file_name всех данных 
+                file.write(f"{i}\n")                                                                                    #из data_set в том же виде
     return write_everything
 
 write = get_advanced_writer('example.txt')
