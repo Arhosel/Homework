@@ -7,6 +7,6 @@ def all_variants(text):
 
 
 #Пример выполняемого кода из задания
-a = all_variants("abc")
-for i in a:
+z = all_variants("abc")
+for i in z:
     print(i)
