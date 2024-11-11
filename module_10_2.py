@@ -17,7 +17,7 @@ class Knight(Thread):
                 number_days += 1                                                                                        #Счётчик дней
                 sleep(1)
                 print(f'{self.name} сражается {number_days} день(дня)...,'
-                      f' осталось {enemies_power} войнов.')                                                             #Вывод ежедневного отчёта
+                      f' осталось {enemies_power} войнов. ')                                                             #Вывод ежедневного отчёта
                 if enemies_power <= 0:
                     print(f'{self.name} одержал победу спустя {number_days} дней(дня)!')                                #Итоговое сообщение после победы
 
